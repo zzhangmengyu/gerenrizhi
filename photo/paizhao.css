@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../images/背景/back16.jpg);
+}
+
+.zhaopian{
+    height:auto;
+    border-bottom: 5px solid pink;
+}
+
+.date{
+    position: relative;
+    top:15px;
+    left:30px;
+    background-color: pink;
+    text-align: center;
+    height: 22px;
+    width:100px;
+}
+
+
+.photo{
+    position: relative;
+    left:30px;
+    margin-top:10px;
+    height:200px;
+    width:220px;
+    padding:0 20px 30px 30px;
+
+}
