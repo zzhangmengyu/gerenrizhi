@@ -1,0 +1,54 @@
+
+.right{
+    height:auto;
+    position: relative;
+    top:50px;
+    width:80%;
+    overflow:hidden;flex:1;
+    float:right;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(images/背景/back5.jpg);
+}
+
+
+
+
+.xq{
+   height:auto;
+   padding-left:50px;
+   padding-top:20px;
+   border:2px plum solid;
+
+}
+
+.xq .text{
+   text-indent:2em;
+   color:rgb(241, 10, 241);
+    margin-bottom:20px;
+    line-height: 1.5em;
+    height:auto;
+    width:1200px;
+   
+}
+
+
+
+.xq .date{
+    background-color: palegoldenrod;
+    text-align: center;
+    height: 22px;
+    width:100px;
+}
+
+.xq .photo{
+   
+    margin-top:10px;
+    height:200px;
+    width:220px;
+    padding:0 20px 30px 30px;
+
+}

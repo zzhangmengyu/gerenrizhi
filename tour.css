@@ -1,0 +1,38 @@
+.right{
+ 
+    height:auto;
+    position: relative;
+    top:50px;
+    width:1180px;
+    height:750px;
+    float:right;
+}
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(images/背景/back4.jpg);
+}
+
+table{
+    position: relative;
+    top:20px;
+    background-color: #f1efe3;
+    width:500px;
+    margin: auto;
+    border-collapse: collapse;
+  
+}
+
+
+
+td{
+        border:thin solid white;
+        padding:5px;
+        width: 300px;
+        line-height: 1.5;
+        font-size: 14px;
+}
+

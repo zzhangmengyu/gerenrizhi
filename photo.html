@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的相册</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="photo.css">
+    <script type="text/javascript">
+        var msg = "美好的时光，都会浓缩为历史；再遥远的等待，只要你去坚持，那么总是会到来！";//定义一个String变量
+        var interval = 800;//定义字符显示的时间间隔，单位毫秒，修改该变量可以控制跑马灯显示的速度
+        var i = 0;//定义字符显示的起始位置
+        function scroll(){ 
+            var len = msg.length;//得到msg的长度
+            document.form1.text1.value = msg.substring(i,len)+"       "+msg.substring(0,len);//文本域中输出字符串
+            i = i+1;//字符显示的位置向后移动两个字符
+            if ( i >= len ) {i = 0;}
+            window.setTimeout("scroll()",interval);
+        }
+    </script>
+</head>
+<body>
+        <div id="coupon">
+                <a href="survey.html" title="满意度调查问卷">
+                    <img src="images/survey.jpg" alt="" width="180" height="60">
+                </a>
+            </div>
+<header class="wrapper" id="top">
+        <div class="inner">
+                <div id="top-1">
+                        <body onload="scroll()">
+                                            <form id="form1" name="form1" method="post" action="">
+                                              <input name="text1" type="text" class="tfield" id="text1" value=""/>
+                                            </form>
+                        </body>
+                            </div>
+            <div id="top-2">
+                <ul id="nav">
+                    <li><a href="index.html">心情日志</a></li>
+                    <li><a href="photo.html">我的相册</a></li>
+                    <li><a href="video.html">我的视频</a></li>
+                    <li><a href="tour.html">旅行站点</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+    
+    <div class="left">
+        <div><img id="touxiang" src="images/image.jpg" alt="" width="80" height="80"></div>
+        <div id="jianjie">昵称：萌萌哒<br>
+            性别：女<br>
+            星座：双鱼座<br>
+            个性签名：所有成长的秘诀在于自我克制，如果你学会了驾驭自己，你就有了一位最好的老师。
+
+        有些困难，面对它，就是上坡的方向，逃避它，就是下坡方向。
+        
+        你的能耐就那么多，盲目追逐你会一事无成。
+        
+        耳不闻人之非，目不视人之短，口不言人之过。
+        
+    </div>
+    <div id="xia">
+        <img src="images/背景/back6.jpg" alt="" width="350" height="280">
+    </div>
+    </div>
+    
+    <div class="right">
+
+<ul id="lala">
+    <li> <a href="photo/zipai.html">
+        <img class="pic" src="images/人像图/photo-4.jpg" alt=""></a>
+        <br>
+       <a class="wz" href="photo/zipai.html">自拍</a></li>
+    <li><a href="photo/ideal.html">
+        <img class="pic" src="images/爱豆/刘亦菲/2.jpg" alt=""></a>
+        <br>
+        <a class="wz" href="photo/ideal.html">爱豆</a></li>
+    <li><a href="photo/lvyou.html">
+        <img class="pic" src="images/风景图/photo-12.jpg" alt=""></a>
+        <br>
+        <a class="wz" href="photo/lvyou.html">旅游</a> </li>
+    <li> <a href="photo/fengjing.html">
+         <img class="pic" src="images/风景图/photo-4.jpg" alt=""></a>
+        <br>
+        <a class="wz" href="photo/fengjing.html">风景</a></li>
+    <li><a href="photo/aichong.html">
+         <img class="pic" src="images/two.jpg" alt=""></a>
+        <br>
+        <a class="wz" href="photo/aichong.html">爱宠</a></li>
+    <li>  <a href="photo/other.html">
+        <img class="pic" src="images/three.jpg" alt=""></a>
+        <br>
+        <a class="wz" href="photo/other.html">其他</a></li>
+</ul>
+
+
+    </div>
+    
+    
+</body>
+</html>

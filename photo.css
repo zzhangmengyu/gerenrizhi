@@ -1,0 +1,46 @@
+.right{
+ 
+    height:auto;
+    position: relative;
+    top:50px;
+    width:1180px;
+    overflow:hidden;flex:1;
+    float:right;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(images/背景/back4.jpg);
+}
+
+.pic{
+    
+    margin-top:30px;
+    height:245px;
+    width:260px;
+    padding:0 30px 20px 40px;
+}
+
+.wz{
+    float:left;
+    position: relative;
+    left:150px;
+    margin-bottom: 15px;
+    font-family:"华文新魏";
+    font-size:22px;
+    color:rgb(218, 69, 94);
+    font-weight:bold;
+}
+
+ul#lala li{
+    font-size: 18px;
+    padding:5px 20px;
+    display:block; 
+    float:left;
+    text-decoration: none;
+    list-style-type: none;
+}

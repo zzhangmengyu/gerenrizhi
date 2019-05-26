@@ -1,0 +1,39 @@
+.right{
+ 
+    height:auto;
+    position: relative;
+    top:50px;
+    width:1180px;
+    overflow:hidden;flex:1;
+    float:right;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(images/背景/back4.jpg);
+}
+
+.video{
+    float:left;
+    margin-left:50px;
+    height:300px;
+    width:300px;
+}
+
+.vid{
+    padding-left:50px;
+    height:245px;
+    width:260px;
+
+}
+
+.text{
+    
+    text-align: center;
+   color:rgb(218, 69, 94);
+   font-family:"华文新魏";
+}
