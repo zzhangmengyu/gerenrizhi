@@ -1,0 +1,26 @@
+body{
+    width:900px;
+    height:auto;
+    margin:auto;
+    font-family: "微软雅黑";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(images/背景/back4.jpg);
+    
+}
+
+p{
+    text-indent: 2em;
+}
+
+.tou{
+    position: relative;    
+      left:260px;
+}
+
+.bankuai{
+      position: relative;    
+      left:300px;
+}
